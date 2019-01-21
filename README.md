@@ -66,6 +66,20 @@ Each class should at the minimum have 4 skills that fit their kit described abov
 
 # Tools
 
+**Game Editor:** Loading models into the game space. Being able to scale,rotate, move and determine whether they have/are Collided with something. Camera movement(wasd and mouse to look around. Click to place?). When a model is selected (Knight ,Mage, Assassin ,Priest) a list of parameters will appear in the inspector that can be changed the object can then be moved around the game space as well.
+
+**UI for Game Editor:** A menu that has the list of objects that can be placed in the game space. A inspector that shows that parameters for the object. Example, scale, rotate, and location. Once placed in world and selected again the inspector will show all parameters plus a delete option.
+
+Ex. Character spawn menu (NPC, player char, animal), Terrain(forest,soil,winter ground), water), asset(Tree, Rock, building, flags  ), Starting point ,end point , out of bounds point 
+
+**Character Editor:** controls character stats such as unsure of requirement->Level, unsure of requirement->Dex, Strength, MP (Magic/Mana/Mist Points),unsure of requirement->EXP (Experience Points), Defense Power,Evasion, unsure of requirement->Stamina, and setting abilities.Will control NPC stats ex. Guards as well
+
+**File Format:** Json save character stats and account of player or database(MySQL).
+
+*(Only if we have time)* **Particle system:** contain four different particle effects which will used by certain characters in the game. The particles will be controlled with things such as their size, brightness, lifespan, speed, rotation, duration and maximum amount of particles.
+
+
+
 # Graphics
 
 # **Networking**
